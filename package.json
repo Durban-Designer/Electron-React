@@ -1,0 +1,40 @@
+{
+  "name": "electrrontest",
+  "version": "0.0.1",
+  "description": "a test",
+  "main": "main.js",
+  "scripts": {
+    "start": "node app.js --production",
+    "start-dev": "node app.js",
+    "test": "mocha './src/tests' --recursive",
+    "start-web": "react-scripts start",
+    "build": "react-scripts build",
+    "package-all": "yarn build && electron-builder build -mwl"
+  },
+  "author": "durban-designer",
+  "license": "MIT",
+  "devDependencies": {
+    "react-scripts": "3.0.1",
+    "electron": "^5.0.4"
+  },
+  "dependencies": {
+    "args-parser": "^1.1.0",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "pm2": "^3.5.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
