@@ -1,0 +1,6 @@
+framework module Pods_ElectronReactTests {
+  umbrella header "Pods-ElectronReactTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

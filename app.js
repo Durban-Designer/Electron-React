@@ -26,38 +26,53 @@ var server,
 
 const createApplication = () => {
   application = spawn('electron ./src/electron/main.js', null, { shell: true });
-  application.on('exit', clearServer);
 }
 
 const createWebServer = () => {
   return new Promise((resolve, reject) => {
     server = spawn('node ./src/api/app.js', null, { shell: true });
+    server.on('exit', () => {
+      process.exit(0);
+    });
     resolve();
   });
 }
 
 const createDevServer = () => {
   return new Promise((resolve, reject) => {
-    server = spawn('react-scripts start', null, { shell: true });
+    server = spawn('react-scripts start', null, { shell: true, detached: true });
+    server.on('exit', () => {
+      process.exit(0);
+    });
     resolve();
   });
 }
 
 const clearServer = () => {
-  return new Promise((resolve, reject) => {
-    server.kill();
-    process.exit();
-  });
+  process.kill(server.pid);
+  process.exit(0);
+}
+
+const clearServerDev = () => {
+  process.kill(server.pid);
+  process.kill(server.pid++);
+  process.exit(0);
+}
+
+const createNativeApp = (platform) => {
+  if (platform === 'android') {
+    application = spawn('react-native run-android --root "./src/native/android"', null, { shell: true, detached: true });
+  } else {
+    application = spawn('react-native run-ios --project-path "./src/native/ios"', null, { shell: true, detached: true });
+  }
 }
 
 const exitHandler = (options, exitCode) => {
   clearServer()
-    .then(() => {
-      process.exit();
-    })
-    .catch(err => {
-      process.exit();
-    })
+}
+
+const exitHandlerDev = (options, exitCode) => {
+  clearServerDev()
 }
 
 const addExitHandler = () => {
@@ -69,21 +84,37 @@ const addExitHandler = () => {
   process.on('uncaughtException', exitHandler.bind(null, {exit:true}));
 }
 
+const addDevExitHandler = () => {
+  process.stdin.resume();
+  process.on('exit', exitHandlerDev.bind(null,{cleanup:true}));
+  process.on('SIGINT', exitHandlerDev.bind(null, {exit:true}));
+  process.on('SIGUSR1', exitHandlerDev.bind(null, {exit:true}));
+  process.on('SIGUSR2', exitHandlerDev.bind(null, {exit:true}));
+  process.on('uncaughtException', exitHandlerDev.bind(null, {exit:true}));
+}
+
 const main = () => {
-  addExitHandler();
   if (args.production) {
+    addExitHandler();
     createWebServer()
       .then(() => {
         createApplication();
+        application.on('exit', clearServer);
       })
       .catch(err => {
         console.log(err);
         process.exit();
       })
+  } else if (args.native) {
+    createNativeApp(args.platform);
   } else {
+    addDevExitHandler();
     createDevServer()
       .then(() => {
-        createApplication();
+        setTimeout(() => {
+          createApplication();
+          application.on('exit', clearServerDev);
+        }, 5000);
       })
       .catch(err => {
         console.log(err);

@@ -1,0 +1,6 @@
+framework module Pods_ElectronReact {
+  umbrella header "Pods-ElectronReact-umbrella.h"
+
+  export *
+  module * { export * }
+}

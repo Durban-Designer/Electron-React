@@ -6,8 +6,11 @@
   "scripts": {
     "start": "node app.js --production",
     "start-dev": "node app.js",
-    "test": "mocha './src/tests' --recursive",
     "start-web": "react-scripts start",
+    "start-ios": "react-native run-ios --project-path './src/native/ios'",
+    "start-android": "react-native run-android --root './src/native'",
+    "install-native": "npm --prefix ./src/native install ./src/native && pod install --project-directory=./src/native/ios",
+    "test": "mocha './src/tests' --recursive",
     "build": "react-scripts build",
     "package-all": "yarn build && electron-builder build -mwl"
   },
@@ -15,15 +18,22 @@
   "license": "MIT",
   "devDependencies": {
     "react-scripts": "3.0.1",
-    "electron": "^5.0.4"
+    "electron": "^5.0.4",
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3"
   },
   "dependencies": {
     "args-parser": "^1.1.0",
     "compression": "^1.7.2",
     "express": "^4.16.3",
     "pm2": "^3.5.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "^0.59.9"
   },
   "browserslist": {
     "production": [

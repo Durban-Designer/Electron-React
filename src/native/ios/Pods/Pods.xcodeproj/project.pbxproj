@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143B777135DAABF616824A5061B09D86 /* Pods-ElectronReact-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D77EB67FA2ED4FC2CADA5E6923BD334 /* Pods-ElectronReact-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21C40C5EE5ED80062B0B5FF1D9AC2018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6DAE2A5F2BA6DEE293644AC780EC978D /* Pods-ElectronReact-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 147BEC5C3F122EB30E9E2DA2B26ECA8B /* Pods-ElectronReact-dummy.m */; };
+		B9065F1C2532C238D1FDB6A923426FF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F5DC6847BCE5F42184A3FA9E471B982F /* Pods-ElectronReactTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D893B2EFED91B0A30D888EB71C73654 /* Pods-ElectronReactTests-dummy.m */; };
+		FB682421C267D27F388A71DBFDD62D6F /* Pods-ElectronReactTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A654056E164E57723DFCE05F743EC3 /* Pods-ElectronReactTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10A89618217BD0722C3BCDAFE8C0C459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564442C8BFEA5B375FBD20EF4402DD63;
+			remoteInfo = "Pods-ElectronReact";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D893B2EFED91B0A30D888EB71C73654 /* Pods-ElectronReactTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElectronReactTests-dummy.m"; sourceTree = "<group>"; };
+		147BEC5C3F122EB30E9E2DA2B26ECA8B /* Pods-ElectronReact-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElectronReact-dummy.m"; sourceTree = "<group>"; };
+		1AA7C12ADEB61744434BA52205337140 /* Pods-ElectronReact.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ElectronReact.modulemap"; sourceTree = "<group>"; };
+		1EBC4D2D5076BCA7168F45582C272059 /* Pods_ElectronReact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ElectronReact.framework; path = "Pods-ElectronReact.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		224AE616833FADB7B4A752DB691669D1 /* Pods-ElectronReact-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectronReact-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C8C7222F7907ABD0C40C01CA876D4C2 /* Pods-ElectronReact-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectronReact-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33A654056E164E57723DFCE05F743EC3 /* Pods-ElectronReactTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElectronReactTests-umbrella.h"; sourceTree = "<group>"; };
+		3D77EB67FA2ED4FC2CADA5E6923BD334 /* Pods-ElectronReact-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElectronReact-umbrella.h"; sourceTree = "<group>"; };
+		496D5B703697BB07F8AE0298EAB4E971 /* Pods-ElectronReactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectronReactTests.release.xcconfig"; sourceTree = "<group>"; };
+		61E5BD8909F266E1871143C584B784CE /* Pods_ElectronReactTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ElectronReactTests.framework; path = "Pods-ElectronReactTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64032177DBDB5A80EED6B6F7819C04C5 /* Pods-ElectronReact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectronReact.debug.xcconfig"; sourceTree = "<group>"; };
+		67D129FDACDF737B794481D75A61D748 /* Pods-ElectronReactTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElectronReactTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DCAD7411B71C44496A909DA4BC4FD9B /* Pods-ElectronReact-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElectronReact-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A898F039908E3F9C49F6B7B6AE0A369 /* Pods-ElectronReactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectronReactTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FCE3505243E8BCDFE0C231CD9B54F77 /* Pods-ElectronReactTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ElectronReactTests.modulemap"; sourceTree = "<group>"; };
+		CE486F9642BB30AC0C7C2FE6D25B21FD /* Pods-ElectronReactTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectronReactTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E90E38565F5F6A82BEC90E5FF92CA71A /* Pods-ElectronReactTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElectronReactTests-Info.plist"; sourceTree = "<group>"; };
+		F7559886FE6ECB18DEB421D9C549EF10 /* Pods-ElectronReact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElectronReact.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482F9E43546B89E1CE3FFC405504929E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C40C5EE5ED80062B0B5FF1D9AC2018 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACD67668EDE0E48F752738ED122390A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9065F1C2532C238D1FDB6A923426FF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B0A67AF73B4718C622885868ACECFCC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2EF9DC0E13571CE5818F76EF60991 /* Pods-ElectronReact */,
+				F1D4740D734EDEA39FDDC418E961D0AE /* Pods-ElectronReactTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BDD2EF9DC0E13571CE5818F76EF60991 /* Pods-ElectronReact */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7C12ADEB61744434BA52205337140 /* Pods-ElectronReact.modulemap */,
+				6DCAD7411B71C44496A909DA4BC4FD9B /* Pods-ElectronReact-acknowledgements.markdown */,
+				224AE616833FADB7B4A752DB691669D1 /* Pods-ElectronReact-acknowledgements.plist */,
+				147BEC5C3F122EB30E9E2DA2B26ECA8B /* Pods-ElectronReact-dummy.m */,
+				2C8C7222F7907ABD0C40C01CA876D4C2 /* Pods-ElectronReact-Info.plist */,
+				3D77EB67FA2ED4FC2CADA5E6923BD334 /* Pods-ElectronReact-umbrella.h */,
+				64032177DBDB5A80EED6B6F7819C04C5 /* Pods-ElectronReact.debug.xcconfig */,
+				F7559886FE6ECB18DEB421D9C549EF10 /* Pods-ElectronReact.release.xcconfig */,
+			);
+			name = "Pods-ElectronReact";
+			path = "Target Support Files/Pods-ElectronReact";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D58DDF0E5559367B31F2EE54820E115A /* Products */,
+				7B0A67AF73B4718C622885868ACECFCC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D58DDF0E5559367B31F2EE54820E115A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC4D2D5076BCA7168F45582C272059 /* Pods_ElectronReact.framework */,
+				61E5BD8909F266E1871143C584B784CE /* Pods_ElectronReactTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D4740D734EDEA39FDDC418E961D0AE /* Pods-ElectronReactTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FCE3505243E8BCDFE0C231CD9B54F77 /* Pods-ElectronReactTests.modulemap */,
+				67D129FDACDF737B794481D75A61D748 /* Pods-ElectronReactTests-acknowledgements.markdown */,
+				CE486F9642BB30AC0C7C2FE6D25B21FD /* Pods-ElectronReactTests-acknowledgements.plist */,
+				0D893B2EFED91B0A30D888EB71C73654 /* Pods-ElectronReactTests-dummy.m */,
+				E90E38565F5F6A82BEC90E5FF92CA71A /* Pods-ElectronReactTests-Info.plist */,
+				33A654056E164E57723DFCE05F743EC3 /* Pods-ElectronReactTests-umbrella.h */,
+				7A898F039908E3F9C49F6B7B6AE0A369 /* Pods-ElectronReactTests.debug.xcconfig */,
+				496D5B703697BB07F8AE0298EAB4E971 /* Pods-ElectronReactTests.release.xcconfig */,
+			);
+			name = "Pods-ElectronReactTests";
+			path = "Target Support Files/Pods-ElectronReactTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5721FCAF0F8450175E75DCBCED86DB4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB682421C267D27F388A71DBFDD62D6F /* Pods-ElectronReactTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88E2FD5938DC7F37851D7F8752AFDB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143B777135DAABF616824A5061B09D86 /* Pods-ElectronReact-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		564442C8BFEA5B375FBD20EF4402DD63 /* Pods-ElectronReact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7690E99ACF3A6AD2D19D1E78AAC7D8F /* Build configuration list for PBXNativeTarget "Pods-ElectronReact" */;
+			buildPhases = (
+				A88E2FD5938DC7F37851D7F8752AFDB5 /* Headers */,
+				EC8739CD6FBA82AEBEE0FB2A37DC1A7F /* Sources */,
+				5ACD67668EDE0E48F752738ED122390A /* Frameworks */,
+				8BBF4095EF736A906464691CEC9CE621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ElectronReact";
+			productName = "Pods-ElectronReact";
+			productReference = 1EBC4D2D5076BCA7168F45582C272059 /* Pods_ElectronReact.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C85F2BF86F7F3BD3A7F06626C49032F6 /* Pods-ElectronReactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE83D551FF9340A53DBCB10403A0CA6 /* Build configuration list for PBXNativeTarget "Pods-ElectronReactTests" */;
+			buildPhases = (
+				5721FCAF0F8450175E75DCBCED86DB4F /* Headers */,
+				AE14582D6B8D1FD2F0F89BF89048A7AB /* Sources */,
+				482F9E43546B89E1CE3FFC405504929E /* Frameworks */,
+				D91B7AD948A2729C51BF03F56CD21426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112BEB39D0592BDAD3699B6F75DF7FDE /* PBXTargetDependency */,
+			);
+			name = "Pods-ElectronReactTests";
+			productName = "Pods-ElectronReactTests";
+			productReference = 61E5BD8909F266E1871143C584B784CE /* Pods_ElectronReactTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D58DDF0E5559367B31F2EE54820E115A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564442C8BFEA5B375FBD20EF4402DD63 /* Pods-ElectronReact */,
+				C85F2BF86F7F3BD3A7F06626C49032F6 /* Pods-ElectronReactTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BBF4095EF736A906464691CEC9CE621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91B7AD948A2729C51BF03F56CD21426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE14582D6B8D1FD2F0F89BF89048A7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DC6847BCE5F42184A3FA9E471B982F /* Pods-ElectronReactTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8739CD6FBA82AEBEE0FB2A37DC1A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAE2A5F2BA6DEE293644AC780EC978D /* Pods-ElectronReact-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		112BEB39D0592BDAD3699B6F75DF7FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ElectronReact";
+			target = 564442C8BFEA5B375FBD20EF4402DD63 /* Pods-ElectronReact */;
+			targetProxy = 10A89618217BD0722C3BCDAFE8C0C459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ABD098F898C45BAFDE22CD19713CB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496D5B703697BB07F8AE0298EAB4E971 /* Pods-ElectronReactTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectronReactTests/Pods-ElectronReactTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectronReactTests/Pods-ElectronReactTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		611201E4EDC62810AACCEDE378B8A616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A898F039908E3F9C49F6B7B6AE0A369 /* Pods-ElectronReactTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectronReactTests/Pods-ElectronReactTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectronReactTests/Pods-ElectronReactTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82755C8F616F189CABFC99BA7EDA7E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64032177DBDB5A80EED6B6F7819C04C5 /* Pods-ElectronReact.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectronReact/Pods-ElectronReact-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectronReact/Pods-ElectronReact.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C8DE2C7B72CC851B9F4BF34A69C53D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7559886FE6ECB18DEB421D9C549EF10 /* Pods-ElectronReact.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ElectronReact/Pods-ElectronReact-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElectronReact/Pods-ElectronReact.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE83D551FF9340A53DBCB10403A0CA6 /* Build configuration list for PBXNativeTarget "Pods-ElectronReactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611201E4EDC62810AACCEDE378B8A616 /* Debug */,
+				0ABD098F898C45BAFDE22CD19713CB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7690E99ACF3A6AD2D19D1E78AAC7D8F /* Build configuration list for PBXNativeTarget "Pods-ElectronReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82755C8F616F189CABFC99BA7EDA7E08 /* Debug */,
+				9C8DE2C7B72CC851B9F4BF34A69C53D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

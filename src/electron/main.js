@@ -45,6 +45,7 @@ app.on('ready', main);
 
 app.on('window-all-closed', () => {
   app.quit();
+  process.exit(0);
 });
 
 app.on('activate', () => {
