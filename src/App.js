@@ -18,13 +18,17 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRA
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-import React from 'react';
-const App = () => {
-  return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
-  );
+import React, { Component } from 'react';
+import LoginWeb from './pages/Login/LoginWeb';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <LoginWeb />
+      </div>
+    );
+  }
 }
 
 export default App;
