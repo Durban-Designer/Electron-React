@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "react-scripts": "3.0.1",
-    "electron": "^5.0.4"
+    "electron": "^9.1.0"
   },
   "dependencies": {
     "args-parser": "^1.1.0",
